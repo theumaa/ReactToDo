@@ -21,12 +21,12 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>My App</h1>
+        <h1>Your List To Do</h1>
 
         <div className="top">
           <input
             type="text"
-            placeholder="Add todo..... "
+            placeholder="Add tasks..... "
             value={text}
             onChange={(e) => setText(e.target.value)}
           />
@@ -41,7 +41,6 @@ function App() {
             }
           >
             {isUpdating ? "Update" : "Add"}
-            Add
           </div>
         </div>
 
